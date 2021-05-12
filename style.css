@@ -14,7 +14,7 @@ html, body {
 }
 
 .box1 {
-    background-image: url("Images/bg-pattern-top.svg");
+    background-image: url("bg-pattern-top.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right 110px bottom 180px;
@@ -23,7 +23,7 @@ html, body {
 }
 
 .box2 {
-    background-image: url("Images/bg-pattern-bottom.svg");
+    background-image: url("bg-pattern-bottom.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left 110px top 180px;
@@ -55,7 +55,7 @@ hr {
 }
 
 .backgroundbox {
-    background-image: url("Images/bg-pattern-card.svg");
+    background-image: url("bg-pattern-card.svg");
     height: 35%;
     border-radius: 20px 20px 0 0;
 }
