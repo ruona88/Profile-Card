@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.box1 {
+    background-image: url("Images/bg-pattern-top.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 110px bottom 180px;
+    width: 50%;
+    height: 100%;
+}
+
+.box2 {
+    background-image: url("Images/bg-pattern-bottom.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 110px top 180px;
+    width: 50%;
+    height: 100%;
+}
+
+.boxdetails {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    width: 25%;
+    height: 50%;
+    border-radius: 20px 20px 20px 20px;
+    min-width: 250px;
+    min-height: 350px;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+hr {
+    opacity: 0.4;
+    position: relative;
+    top: 32%;
+}
+
+.backgroundbox {
+    background-image: url("Images/bg-pattern-card.svg");
+    height: 35%;
+    border-radius: 20px 20px 0 0;
+}
+
+.imageContainer {
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 23%;
+    width: 28%;
+    height: 28%;
+}
+
+img {
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.crest {
+    position: relative;
+    text-align: center;
+    top: 25%;
+}
+
+.userdetails {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    top: 37%;
+}
+
+.blurtext {
+    color: silver;
+}
+
+.twentysix {
+    margin-left: 2%;
+}
+
+.london {
+    margin-top: 2.5%;
+    font-size: 0.8em;
+}
+
+.samefont {
+    font-weight: 700;
+}
+
+.smallertext {
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+}
+
+@media only screen and (max-width: 480px) {
+    .boxdetails {
+        width: 85%;
+    }
+}
+
